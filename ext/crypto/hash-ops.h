@@ -20,7 +20,7 @@
 #endif
 
 #if !defined(__cplusplus)
-#include "util.h"
+#include "int-util.h"
 
 static inline void *padd(void *p, size_t i) {
   return (char *) p + i;
